@@ -15,4 +15,4 @@ cd build/libs
 
 ls
 
-nohup java -Xms384m -Xmx412m -jar repo-all.jar --server.port=${OPENSHIFT_DIY_PORT} --server.address=${OPENSHIFT_DIY_IP} --spring.profiles.active=openshift &
+nohup java -Xms384m -Xmx412m -jar repo-all.jar ${OPENSHIFT_DIY_IP} ${OPENSHIFT_DIY_PORT} --spring.profiles.active=openshift &
