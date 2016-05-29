@@ -9,8 +9,8 @@ import static spark.Spark.*;
 public class Main {
     public static void main(String[] args) {
 
-        //ipAddress(args[0]);
-       // port(Integer.parseInt(args[1]));
+        ipAddress(args[0]);
+        port(Integer.parseInt(args[1]));
 
         //ipAddress("79.120.40.196");
         //port(9123);
