@@ -1,5 +1,8 @@
 apply plugin: 'java'
 
+
+compileJava {options.encoding = "UTF-8"}
+
 jar {
     baseName = 'demo'
     version = '0.0.1-SNAPSHOT'
